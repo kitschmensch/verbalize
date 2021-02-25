@@ -1,0 +1,32 @@
+{
+  "manifest_version": 2,
+  "name": "Verbalize",
+  "description": "Select text and hear it spoken 👂",
+  "version": "0.0.1",
+  "icons": {
+    "64": "icons/icon.png"
+  },
+  "background": {
+    "scripts": [
+      "background_script.js"
+    ]
+  },
+  "permissions": [
+    "*://*.ibm.com/*",
+    "storage",
+    "menus",
+    "activeTab"
+  ],
+  "options_ui": {
+    "page": "options/index.html"
+  },
+  "browser_action": {
+    "default_title": "Verbalize Options"
+  },
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "verbalize-api-demo@mecham.xyz",
+      "strict_min_version": "63.0b14"
+    }
+  }
+}

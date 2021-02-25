@@ -1,0 +1,17 @@
+{
+    "voices": [
+      {
+        "name": "es-LA_SofiaV3Voice",
+        "language": "es-LA",
+        "customizable": true,
+        "gender": "female",
+        "url": "{url}/v1/voices/es-LA_SofiaV3Voice",
+        "supported_features": {
+          "voice_transformation": false,
+          "custom_pronunciation": true
+        },
+        "description": "Sofia: Latin American Spanish (español latinoamericano) female voice."
+      }
+      ...
+    ]
+  }

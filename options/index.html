@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link href="style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div id="main">
+      <h1>Verbalize Options</h1>
+      <p>VerbaliHere are some instructions here</p>
+      <form id="authForm">
+        <div>
+          <label>Service URL</label>
+          <input
+            required
+            type="text"
+            id="url"
+            placeholder="https://api.us-south.text-to-speech.watson.cloud.ibm.com/instances/####"
+          />
+        </div>
+        <div>
+          <label>API Key</label>
+          <input type="password" id="apikey" required />
+        </div>
+        <div>
+          <label>Voice</label>
+          <select disabled id="voice"></select>
+        </div>
+
+        <input type="reset" value="Reset" />
+        <input type="submit" id="save" value="Save" />
+      </form>
+      <div id="success" class="alert">Success!</div>
+      <div id="failure" class="alert">
+        Could not authenticate. Check your input.
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

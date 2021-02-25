@@ -1,0 +1,54 @@
+input, select, .alert{
+  padding: 6px 6px;
+  border-radius: 3px;
+  margin: 8px 2px;
+  display: inline-block;
+}
+
+input[type=submit], input[type=reset] {
+  background-color: #666;
+  color: white;
+  padding: 8px 20px;
+  margin: 8px 0;
+  cursor: pointer;
+  border: none;
+}
+
+input[type=text], input[type=password], select {
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  width: calc(100% - 4px);
+}
+
+label {
+  font-weight: bold;
+}
+
+.alert {
+  opacity: 0;
+  font-weight: bold;
+  width: 98%;
+  transition: opacity 0.3s;
+}
+
+.bottom-row {
+  display: flex;
+  flex-direction: row;
+}
+
+#save {
+  float: right;
+}
+#success { 
+  border: solid green 2px;
+  color: green;
+}
+
+#failure {
+  border: solid red 2px;
+  color: red;
+}
+
+#main {
+  width: 100%;
+}
