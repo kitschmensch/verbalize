@@ -9,7 +9,7 @@ https://cloud.ibm.com/catalog/services/text-to-speech
 Use the service URL and API key listed for your resource:
 https://cloud.ibm.com/resources
 
-##Installation
+## Installation
 1. Download and extract repository
 2. Navigate to `about:debugging#/runtime/this-firefox`
 3. "Load temporary Add-on"
