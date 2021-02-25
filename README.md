@@ -14,7 +14,7 @@ On the extension options page, enter service URL and API key as listed under you
 https://cloud.ibm.com/resources
 
 ## Installation
-1. Download and extract repository
-2. Navigate to [about:debugging#/runtime/this-firefox](about:debugging#/runtime/this-firefox)
+1. Download and extract code
+2. Navigate to `about:debugging#/runtime/this-firefox`
 3. "Load temporary Add-on" and select `manifest.json`
-4. Enter credentials in extension options
+4. Enter URL and API key in extension options
