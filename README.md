@@ -7,11 +7,9 @@ A Firefox web extension demoing [IBM's Text-to-Speech API](https://www.ibm.com/c
 
 Simply right-click text and select "Verbalize" to hear your text spoken by IBM Watson's speech synthesis API.
 
-Sign up for a free IBM Text-to-Speech account:
-https://cloud.ibm.com/catalog/services/text-to-speech
+[Sign up for a free IBM Text-to-Speech account](https://cloud.ibm.com/catalog/services/text-to-speech)
 
-On the extension options page, enter service URL and API key as listed under your resource:
-https://cloud.ibm.com/resources
+On the extension options page, enter service URL and API key as listed under [your resources](https://cloud.ibm.com/resources)
 
 ## Installation
 1. Download and extract code
