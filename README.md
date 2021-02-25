@@ -12,5 +12,5 @@ https://cloud.ibm.com/resources
 ## Installation
 1. Download and extract repository
 2. Navigate to `about:debugging#/runtime/this-firefox`
-3. "Load temporary Add-on"
+3. "Load temporary Add-on" and select `manifest.json`
 4. Enter credentials in Extension options
