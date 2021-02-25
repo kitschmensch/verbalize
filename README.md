@@ -1,7 +1,9 @@
+![cute little logo](https://i.ibb.co/LNp0xZ4/icon.png)
 # Verbalize
+
 A Firefox web extension demoing IBM's Text-to-Speech API
 
-![verbalize in action](https://i.ibb.co/2dSZv7M/image.png)
+![verbalize in action](https://i.ibb.co/LNp0xZ4/icon.png)
 
 Simply right-click text and select "Verbalize" to hear your text spoken by IBM Watson's speech synthesis API.
 
